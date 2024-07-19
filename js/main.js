@@ -1,14 +1,3 @@
-/* -------------------------------------------
-
-Name: 		Ruizarch
-Version:    1.0
-Developer:	Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
-
-p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
-
-------------------------------------------- */
-
 $(function () {
 
     "use strict";
@@ -21,7 +10,7 @@ $(function () {
     const options = {
         containers: ['#swupMain', '#swupMenu'],
         animateHistoryBrowsing: true,
-        linkSelector: 'a:not([data-no-swup])',
+        linkSelector: 'a:not([data-no-swup]):not([href^="http"]):not([href^="https"])', // Fixed the issue with external links (2024-07-19)
         animationSelector: '[class="mil-main-transition"]'
     };
     const swup = new Swup(options);
@@ -120,19 +109,22 @@ $(function () {
 
     ***************************/
     $(document).on('click', 'a[href^="#"]', function (event) {
-        event.preventDefault();
-
+        // Check if the target is an actual element on the page
         var target = $($.attr(this, 'href'));
-        var offset = 0;
-
-        if ($(window).width() < 1200) {
-            offset = 90;
+        if (target.length) {
+            event.preventDefault();
+    
+            var offset = 0;
+            if ($(window).width() < 1200) {
+                offset = 90;
+            }
+    
+            $('html, body').animate({
+                scrollTop: target.offset().top - offset
+            }, 400);
         }
-
-        $('html, body').animate({
-            scrollTop: target.offset().top - offset
-        }, 400);
     });
+    
     /***************************
 
     append
