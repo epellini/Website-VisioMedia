@@ -27,7 +27,7 @@ $(function () {
 
     ***************************/
 
-    var accent = 'rgba(255, 152, 0, 1)';
+    var accent = 'rgb(247, 95, 24)';
     var dark = '#000';
     var light = '#fff';
 
