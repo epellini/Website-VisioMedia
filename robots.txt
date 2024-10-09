@@ -1,0 +1,14 @@
+# Allow all bots to crawl the site
+User-agent: *
+Disallow:
+
+# Disallow specific directories (e.g., admin pages or files you don't want indexed)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow indexing of images
+User-agent: Googlebot-Image
+Allow: /img/
+
+# Sitemap location
+Sitemap: https://www.visiomedia.io/sitemap.xml

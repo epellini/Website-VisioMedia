@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.visiomedia.io/</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Works Page -->
+  <url>
+    <loc>https://www.visiomedia.io/works.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://www.visiomedia.io/services.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.visiomedia.io/contact.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Stronghold Insurance Project Page -->
+  <url>
+    <loc>https://www.visiomedia.io/stronghold.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Young Wasabi Ramen Project Page -->
+  <url>
+    <loc>https://www.visiomedia.io/youngwasabi.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Mitsubishi Project Page -->
+  <url>
+    <loc>https://www.visiomedia.io/mitsubishi.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Trend Micro Project Page -->
+  <url>
+    <loc>https://www.visiomedia.io/trendmicro.html</loc>
+    <lastmod>2024-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
